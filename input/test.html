@@ -1,0 +1,16 @@
+{{mod:main.html}}
+{{mod:head.html}}
+{{mod:strong.html}}
+{{var:title=Testing Site}}
+{{var:desc=This is a testing site}}
+{{var:motd=Default motd is working}}
+<!DOCTYPE html>
+<html lang="en">
+{%head.html%}
+<body>
+    <p>Site title is {{title}}</p>
+    <p>Undefined variable invocation: {{help}}</p>
+    {% strong.html %}
+    <p>motd: {{motd}}</p>
+</body>
+</html>
