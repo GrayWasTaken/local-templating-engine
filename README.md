@@ -7,8 +7,8 @@
 
 ## Installation
 ```sh
-# Down the repository with
-$ git clone https://github.com/GrayWasTaken/dartbuster.git # TODO
+# Download the repository with
+$ git clone https://github.com/GrayWasTaken/local-templating-engine.git
 ```
 
 ## Screenshots
